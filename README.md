@@ -1,6 +1,6 @@
 # ui-component-garden
 
-A meteor application using react, react router and material-ui for practice building various simple ui components.
+A Meteor application using React, React Router and Material-UI for practice building various simple ui components.
 
 ## Installed Components
 * Meteor
