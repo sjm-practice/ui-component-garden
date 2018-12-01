@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900');
+
+/* set default font */
+
+* {
+  font-family: Lato;
+}
+
+/* MenuBar Styling */
+.menubar-container {
+  width: 280px;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+}
+
+.menubar-left {
+  justify-content: flex-start;
+}
+
+.menubar-middle {
+  justify-content: space-around;
+}
+
+.menubar-right {
+  justify-content: flex-end;
+}
+
+@media all and (max-width:899px) {
+  .menubar-left {
+    justify-content: space-around;
+  }
+
+  .menubar-right {
+    justify-content: space-around;
+  }
+}
+
+/* NavBar Styling */
+
+nav > a {
+  color: #444;
+  text-decoration: none;
+  margin-top: 2px;
+}
+
+nav > a:hover {
+  color: #999;
+}
+
+
+/* IconButtons Styling */
+.icon-buttons {
+  font-size: .7em;
+  /* padding-top: 1em; */
+}
+
+.icon-buttons a {
+  color: #444;
+  padding: 1em;
+}
+
+.icon-buttons a:hover {
+  color: #f28020;
+}
+
+/* Footer Styling */
+.footer-container {
+  background-color: #f28020;
+  color: #fff;
+  font-size: .8em;
+  padding: 1.25em 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.footer-container img {
+  margin-left: 10%;
+  margin-right: 3px;
+}
+
+.footer-container span {
+  margin: 4px;
+}
+
+@media all and (max-width:599px) {
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .footer-container img {
+    margin: 0 0 4px 0;
+  }
+}
+
+/* Banner Styling - note, banner button styling is in component */
+
+.banner-container {
+  background-image: url("/images/blueberry_smoothie_sm.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 620px;
+  border-bottom: 8px solid #f28020;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-headline {
+  color: #fff;
+  font-size: 3.25em;
+  font-weight: bold;
+  line-height: 1;
+  margin: 10px 5% .5em 5%;
+}
+
+@media all and (max-width:1024px) {
+  .banner-container {
+    height: 400px;
+  }
+
+  .banner-headline {
+    font-size: 1.75em;
+  }
+}
+

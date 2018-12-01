@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MenuBar /> should match render snapshot 1`] = `
+Array [
+  <header
+    className="MuiPaper-root-13 MuiPaper-elevation4-19 MuiAppBar-root-4 MuiAppBar-positionFixed-5 MuiAppBar-colorPrimary-11 mui-fixed MenuBar-appBar-1"
+  >
+    <div
+      className="MuiToolbar-root-40 MuiToolbar-regular-42 MuiToolbar-gutters-41 MenuBar-toolBar-2"
+    >
+      <div
+        className="menubar-container menubar-left"
+      >
+        <a
+          href="/"
+        >
+          <img
+            alt="Company Logo"
+            src="images/logo.png"
+          />
+        </a>
+      </div>
+      <nav
+        className="menubar-container menubar-middle"
+      >
+        <a
+          aria-current="page"
+          className="NavBar-selected-44"
+          href="/"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          HOME
+        </a>
+        <a
+          aria-current={null}
+          href="/#contact"
+          onClick={[Function]}
+        >
+          CONTACT
+        </a>
+        <a
+          aria-current={null}
+          href="/privacy-policy"
+          onClick={[Function]}
+        >
+          PRIVACY
+        </a>
+      </nav>
+      <div
+        className="menubar-container menubar-right icon-buttons"
+      >
+        <a
+          href="mailto:info@eatdrinkhealthy.co"
+        >
+          <span
+            className="fa-stack fa-lg"
+          >
+            <i
+              className="fa fa-circle fa-stack-2x"
+            />
+            <i
+              className="fa fa-envelope fa-stack-1x fa-inverse"
+            />
+          </span>
+        </a>
+        <a
+          href="https://www.linkedin.com/company/16173480/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <span
+            className="fa-stack fa-lg"
+          >
+            <i
+              className="fa fa-circle fa-stack-2x"
+            />
+            <i
+              className="fab fa-linkedin fa-stack-1x fa-inverse"
+            />
+          </span>
+        </a>
+      </div>
+    </div>
+  </header>,
+  <div
+    className="MenuBar-spacer-3"
+  />,
+]
+`;

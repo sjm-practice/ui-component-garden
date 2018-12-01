@@ -1,0 +1,377 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> matches render snapshot 1`] = `
+<div>
+  <header
+    className="MuiPaper-root-13 MuiPaper-elevation4-19 MuiAppBar-root-4 MuiAppBar-positionFixed-5 MuiAppBar-colorPrimary-11 mui-fixed MenuBar-appBar-1"
+  >
+    <div
+      className="MuiToolbar-root-40 MuiToolbar-regular-42 MuiToolbar-gutters-41 MenuBar-toolBar-2"
+    >
+      <div
+        className="menubar-container menubar-left"
+      >
+        <a
+          href="/"
+        >
+          <img
+            alt="Company Logo"
+            src="images/logo.png"
+          />
+        </a>
+      </div>
+      <nav
+        className="menubar-container menubar-middle"
+      >
+        <a
+          aria-current="page"
+          className="NavBar-selected-44"
+          href="/"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          HOME
+        </a>
+        <a
+          aria-current={null}
+          href="/#contact"
+          onClick={[Function]}
+        >
+          CONTACT
+        </a>
+        <a
+          aria-current={null}
+          href="/privacy-policy"
+          onClick={[Function]}
+        >
+          PRIVACY
+        </a>
+      </nav>
+      <div
+        className="menubar-container menubar-right icon-buttons"
+      >
+        <a
+          href="mailto:info@eatdrinkhealthy.co"
+        >
+          <span
+            className="fa-stack fa-lg"
+          >
+            <i
+              className="fa fa-circle fa-stack-2x"
+            />
+            <i
+              className="fa fa-envelope fa-stack-1x fa-inverse"
+            />
+          </span>
+        </a>
+        <a
+          href="https://www.linkedin.com/company/16173480/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <span
+            className="fa-stack fa-lg"
+          >
+            <i
+              className="fa fa-circle fa-stack-2x"
+            />
+            <i
+              className="fab fa-linkedin fa-stack-1x fa-inverse"
+            />
+          </span>
+        </a>
+      </div>
+    </div>
+  </header>
+  <div
+    className="MenuBar-spacer-3"
+  />
+  <div>
+    <section
+      className="banner-container"
+    >
+      <div
+        className="banner-headline"
+      >
+        A platform to find, share, and discuss healthy places to shop and eat.
+      </div>
+      <a
+        className="MuiButtonBase-root-72 MuiButton-root-46 MuiButton-fab-63 MuiButton-extendedFab-64 MuiButton-contained-57 MuiButton-containedPrimary-58 MuiButton-raised-60 MuiButton-raisedPrimary-61 Banner-bannerButton-45"
+        href="https://app.eatdrinkhealthy.co/"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        rel="noopener noreferrer"
+        role="button"
+        tabIndex="0"
+        target="_blank"
+      >
+        <span
+          className="MuiButton-label-47"
+        >
+          Web App
+        </span>
+        <span
+          className="MuiTouchRipple-root-264"
+        />
+      </a>
+    </section>
+    <div
+      className="MuiGrid-container-77 MuiGrid-spacing-xs-40-103 ContactSection-container-75"
+    >
+      <div
+        className="MuiGrid-item-78 MuiGrid-grid-xs-12-117 MuiGrid-grid-md-6-139"
+      >
+        <img
+          alt="Mobile Phone Device"
+          className="ContactSection-responsive-76"
+          src="images/device.png"
+        />
+      </div>
+      <div
+        className="MuiGrid-item-78 MuiGrid-grid-xs-12-117 MuiGrid-grid-md-6-139"
+      >
+        <div>
+          <h4
+            className="MuiTypography-root-175 MuiTypography-h4-190 MuiTypography-colorPrimary-205"
+          >
+            Contact Us
+          </h4>
+          <form
+            id="contactForm"
+            onSubmit={[Function]}
+          >
+            <div
+              className="MuiFormControl-root-210 MuiFormControl-fullWidth-213"
+              onDragStart={[Function]}
+              onDrop={[Function]}
+              style={
+                Object {
+                  "margin": "10px 0 10px 0",
+                }
+              }
+            >
+              <label
+                className="MuiFormLabel-root-225 MuiInputLabel-root-214 MuiInputLabel-formControl-219 MuiInputLabel-animated-222 MuiInputLabel-outlined-224"
+                data-shrink={false}
+              >
+                Name
+              </label>
+              <div
+                className="MuiInputBase-root-245 MuiOutlinedInput-root-232 MuiInputBase-fullWidth-254 MuiInputBase-formControl-246"
+                onClick={[Function]}
+              >
+                <fieldset
+                  aria-hidden={true}
+                  className="MuiPrivateNotchedOutline-root-262 MuiOutlinedInput-notchedOutline-239"
+                  style={
+                    Object {
+                      "paddingLeft": 8,
+                    }
+                  }
+                >
+                  <legend
+                    className="MuiPrivateNotchedOutline-legend-263"
+                    style={
+                      Object {
+                        "width": 0.01,
+                      }
+                    }
+                  >
+                    <span
+                      dangerouslySetInnerHTML={
+                        Object {
+                          "__html": "&#8203;",
+                        }
+                      }
+                    />
+                  </legend>
+                </fieldset>
+                <input
+                  aria-invalid={false}
+                  className="MuiInputBase-input-255 MuiOutlinedInput-input-240"
+                  disabled={false}
+                  name="contactName"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  required={false}
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+            <div
+              className="MuiFormControl-root-210 MuiFormControl-fullWidth-213"
+              onDragStart={[Function]}
+              onDrop={[Function]}
+              style={
+                Object {
+                  "margin": "10px 0 10px 0",
+                }
+              }
+            >
+              <label
+                className="MuiFormLabel-root-225 MuiInputLabel-root-214 MuiInputLabel-formControl-219 MuiInputLabel-animated-222 MuiInputLabel-outlined-224"
+                data-shrink={false}
+              >
+                Email
+              </label>
+              <div
+                className="MuiInputBase-root-245 MuiOutlinedInput-root-232 MuiInputBase-fullWidth-254 MuiInputBase-formControl-246"
+                onClick={[Function]}
+              >
+                <fieldset
+                  aria-hidden={true}
+                  className="MuiPrivateNotchedOutline-root-262 MuiOutlinedInput-notchedOutline-239"
+                  style={
+                    Object {
+                      "paddingLeft": 8,
+                    }
+                  }
+                >
+                  <legend
+                    className="MuiPrivateNotchedOutline-legend-263"
+                    style={
+                      Object {
+                        "width": 0.01,
+                      }
+                    }
+                  >
+                    <span
+                      dangerouslySetInnerHTML={
+                        Object {
+                          "__html": "&#8203;",
+                        }
+                      }
+                    />
+                  </legend>
+                </fieldset>
+                <input
+                  aria-invalid={false}
+                  className="MuiInputBase-input-255 MuiOutlinedInput-input-240 MuiInputBase-inputType-258"
+                  disabled={false}
+                  name="contactEmail"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  required={false}
+                  type="email"
+                  value=""
+                />
+              </div>
+            </div>
+            <div
+              className="MuiFormControl-root-210 MuiFormControl-fullWidth-213"
+              onDragStart={[Function]}
+              onDrop={[Function]}
+              style={
+                Object {
+                  "margin": "10px 0 10px 0",
+                }
+              }
+            >
+              <label
+                className="MuiFormLabel-root-225 MuiInputLabel-root-214 MuiInputLabel-formControl-219 MuiInputLabel-animated-222 MuiInputLabel-outlined-224"
+                data-shrink={false}
+              >
+                Message
+              </label>
+              <div
+                className="MuiInputBase-root-245 MuiOutlinedInput-root-232 MuiInputBase-fullWidth-254 MuiInputBase-formControl-246 MuiInputBase-multiline-253 MuiOutlinedInput-multiline-238"
+                onClick={[Function]}
+              >
+                <fieldset
+                  aria-hidden={true}
+                  className="MuiPrivateNotchedOutline-root-262 MuiOutlinedInput-notchedOutline-239"
+                  style={
+                    Object {
+                      "paddingLeft": 8,
+                    }
+                  }
+                >
+                  <legend
+                    className="MuiPrivateNotchedOutline-legend-263"
+                    style={
+                      Object {
+                        "width": 0.01,
+                      }
+                    }
+                  >
+                    <span
+                      dangerouslySetInnerHTML={
+                        Object {
+                          "__html": "&#8203;",
+                        }
+                      }
+                    />
+                  </legend>
+                </fieldset>
+                <textarea
+                  aria-invalid={false}
+                  className="MuiInputBase-input-255 MuiOutlinedInput-input-240 MuiInputBase-inputMultiline-257 MuiOutlinedInput-inputMultiline-242"
+                  disabled={false}
+                  name="contactMessage"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  required={false}
+                  rows={10}
+                  value=""
+                />
+              </div>
+            </div>
+            <button
+              className="MuiButtonBase-root-72 MuiButton-root-46 MuiButton-fab-63 MuiButton-extendedFab-64 MuiButton-contained-57 MuiButton-containedPrimary-58 MuiButton-raised-60 MuiButton-raisedPrimary-61 MuiButton-sizeLarge-70 ContactFormComponent-formButton-174"
+              disabled={false}
+              id="contactSubmit"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex="0"
+              type="submit"
+            >
+              <span
+                className="MuiButton-label-47"
+              >
+                Send
+              </span>
+              <span
+                className="MuiTouchRipple-root-264"
+              />
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer
+    className="footer-container"
+  >
+    <img
+      alt="Componay Logo"
+      src="images/carrot_icon.png"
+    />
+    <span>
+      Copyright 2018 Eat. Drink. Healthy.
+    </span>
+    <span>
+      All rights reserved.
+    </span>
+  </footer>
+</div>
+`;
