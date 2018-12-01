@@ -21,7 +21,7 @@ A meteor application using react, react router and material-ui for practice buil
 * MuiThemeProvider is used
 * withStyles styling is used
 * CSS also used (main.css)
-* Roboto Font is included via link in main.html
+* Lato Font is included via import in main.css
 * Fontawesome is included via link in main.html
 
 ## Testing

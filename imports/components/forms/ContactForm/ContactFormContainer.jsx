@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Meteor } from "meteor/meteor";
 import ContactForm from "./ContactForm";
 
-class ContactContainer extends Component {
+class ContactFormContainer extends Component {
   submit = values => {
     Meteor.call(
       "sendMail",
@@ -24,4 +24,4 @@ class ContactContainer extends Component {
   }
 }
 
-export default ContactContainer;
+export default ContactFormContainer;

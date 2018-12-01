@@ -3,11 +3,11 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from "react";
 import renderer from "react-test-renderer";
-import PrivacyPolicy from "../PrivacyPolicy";
+import Footer from "..";
 
-describe("<PrivacyPolicy />", () => {
+describe("<Footer />", () => {
   it("should match render snapshot", () => {
-    const tree = renderer.create(<PrivacyPolicy />).toJSON();
+    const tree = renderer.create(<Footer />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Logo = () => (
+const LogoLink = () => (
   <div className="menubar-container menubar-left">
     <a href="/">
       <img src="images/logo.png" alt="Company Logo" />
@@ -8,4 +8,4 @@ const Logo = () => (
   </div>
 );
 
-export default Logo;
+export default LogoLink;

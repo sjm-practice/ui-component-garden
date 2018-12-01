@@ -23,7 +23,7 @@ const styles = theme => ({
 // TODO: to set an anchor link active, could check location.hash
 // if equal, set Contact to active
 // Note, may need to use Link instead of NavLink to do so
-const NavBar = ({ classes: { selected } }) => (
+const NavButtonBar = ({ classes: { selected } }) => (
   <nav className="menubar-container menubar-middle">
     <NavLink
       exact
@@ -52,8 +52,8 @@ const NavBar = ({ classes: { selected } }) => (
   </nav>
 );
 
-NavBar.propTypes = {
+NavButtonBar.propTypes = {
   classes: PropTypes.objectOf(PropTypes.string).isRequired,
 };
 
-export default withStyles(styles)(NavBar);
+export default withStyles(styles)(NavButtonBar);

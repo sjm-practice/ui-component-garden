@@ -5,14 +5,14 @@ import React from "react";
 import renderer from "react-test-renderer";
 import { mount } from "enzyme";
 import { MemoryRouter } from "react-router-dom";
-import NavBar from "../NavBar";
+import NavButtonBar from "..";
 
-describe("<NavBar />", () => {
+describe("<NavButtonBar />", () => {
   it("should match render snapshot", () => {
     const tree = renderer
       .create(
         <MemoryRouter>
-          <NavBar />
+          <NavButtonBar />
         </MemoryRouter>,
       )
       .toJSON();
@@ -23,7 +23,7 @@ describe("<NavBar />", () => {
     it("should show HOME link selected", () => {
       const wrapper = mount(
         <MemoryRouter initialEntries={["/"]}>
-          <NavBar />
+          <NavButtonBar />
         </MemoryRouter>,
       );
 
@@ -40,7 +40,7 @@ describe("<NavBar />", () => {
     it("should show CONTACT link selected", () => {
       const wrapper = mount(
         <MemoryRouter initialEntries={["/#contact"]}>
-          <NavBar />
+          <NavButtonBar />
         </MemoryRouter>,
       );
 
@@ -57,7 +57,7 @@ describe("<NavBar />", () => {
     it("should show PRIVACY link selected", () => {
       const wrapper = mount(
         <MemoryRouter initialEntries={["/privacy-policy"]}>
-          <NavBar />
+          <NavButtonBar />
         </MemoryRouter>,
       );
 
