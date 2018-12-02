@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
+import Button from "../../../components/base/Button";
 
 const styles = {
   container: {
@@ -20,6 +21,7 @@ const HomePage = ({ classes }) => (
     <Typography className={classes.message} variant="h4">
       HomePage.
     </Typography>
+    <Button onClick={() => alert("clicked!")}>Push Me.</Button>
   </div>
 );
 

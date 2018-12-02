@@ -20,7 +20,8 @@ A Meteor application using React, React Router and Material-UI for practice buil
 * Material-UI components are used
 * MuiThemeProvider is used
 * withStyles styling is used
-* CSS also used (main.css)
+* styled-components is used
+* standard CSS also used (in main.css)
 * Lato Font is included via import in main.css
 * Fontawesome is included via link in main.html
 
