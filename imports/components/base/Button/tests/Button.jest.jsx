@@ -3,6 +3,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from "react";
 import renderer from "react-test-renderer";
+import "jest-styled-components";
 import Button from "..";
 
 describe("<Button />", () => {

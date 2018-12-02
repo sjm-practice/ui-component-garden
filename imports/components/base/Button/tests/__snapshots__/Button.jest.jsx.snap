@@ -1,8 +1,21 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Button /> should match render snapshot 1`] = `
+.c0 {
+  background: transparent;
+  border-radius: 3px;
+  border: 2px solid palevioletred;
+  color: palevioletred;
+  margin: 0 1em;
+  padding: 0.25em 1em;
+}
+
+.c0:hover {
+  border: 2px solid darkblue;
+}
+
 <button
-  className="sc-bdVaJa dMrfZP"
+  className="c0"
 >
   Test
 </button>
