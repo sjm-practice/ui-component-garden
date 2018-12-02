@@ -10,7 +10,7 @@
     "storybook": "start-storybook -s ./public -p 9001 -c .storybook"
   },
   "dependencies": {
-    "@material-ui/core": "^3.5.1",
+    "@material-ui/core": "^3.6.1",
     "@material-ui/icons": "^3.0.1",
     "meteor-node-stubs": "^0.4.1",
     "prop-types": "^15.6.2",
@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.1.6",
-    "@storybook/react": "^4.0.8",
+    "@storybook/react": "^4.0.10",
     "babel-eslint": "^8.2.6",
     "babel-jest": "^23.6.0",
     "babel-loader": "^8.0.4",
@@ -41,8 +41,11 @@
     "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-react": "^7.11.1",
     "jest": "^23.6.0",
-    "prettier": "^1.15.2",
+    "jest-dom": "^2.1.1",
+    "jest-styled-components": "^6.3.1",
+    "prettier": "^1.15.3",
     "react-test-renderer": "^16.6.3",
+    "react-testing-library": "^5.3.1",
     "regenerator-runtime": "^0.12.1"
   }
 }
