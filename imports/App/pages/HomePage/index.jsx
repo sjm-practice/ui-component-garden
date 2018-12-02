@@ -21,7 +21,6 @@ const HomePage = ({ classes }) => (
     <Typography className={classes.message} variant="h4">
       HomePage.
     </Typography>
-    <Button onClick={() => alert("clicked!")}>Push Me.</Button>
   </div>
 );
 

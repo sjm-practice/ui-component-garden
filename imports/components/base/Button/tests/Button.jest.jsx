@@ -3,11 +3,11 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from "react";
 import renderer from "react-test-renderer";
-import MenuBar from "..";
+import Button from "..";
 
-describe("<MenuBar />", () => {
+describe("<Button />", () => {
   it("should match render snapshot", () => {
-    const tree = renderer.create(<MenuBar />).toJSON();
+    const tree = renderer.create(<Button>Test</Button>).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

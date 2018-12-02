@@ -5,7 +5,6 @@ import { withStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Logo from "../../base/LogoLink";
-import NavBar from "../../base/NavButtonBar";
 import IconButtons from "../../base/IconButtonLink/IconButtons";
 
 const styles = theme => ({
@@ -37,7 +36,6 @@ const MenuBar = props => {
       <AppBar position="fixed" className={classes.appBar}>
         <Toolbar className={classes.toolBar}>
           <Logo />
-          <NavBar />
           <IconButtons />
         </Toolbar>
       </AppBar>
