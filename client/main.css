@@ -64,36 +64,6 @@ nav > a:hover {
   color: #f28020;
 }
 
-/* Footer Styling */
-.footer-container {
-  background-color: #f28020;
-  color: #fff;
-  font-size: .8em;
-  padding: 1.25em 0;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-.footer-container img {
-  margin-left: 10%;
-  margin-right: 3px;
-}
-
-.footer-container span {
-  margin: 4px;
-}
-
-@media all and (max-width:599px) {
-  .footer-container {
-    flex-direction: column;
-  }
-
-  .footer-container img {
-    margin: 0 0 4px 0;
-  }
-}
-
 /* Banner Styling - note, banner button styling is in component */
 
 .banner-container {

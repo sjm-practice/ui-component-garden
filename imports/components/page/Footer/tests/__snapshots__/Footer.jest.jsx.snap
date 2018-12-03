@@ -1,8 +1,47 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Footer /> should match render snapshot 1`] = `
+.c0 {
+  background-color: #f28020;
+  color: #fff;
+  font-size: 0.8em;
+  padding: 1.25em 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 img {
+  margin-left: 10%;
+  margin-right: 3px;
+}
+
+.c0 span {
+  margin: 4px;
+}
+
+@media all and (max-width:599px) {
+  .c0 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .c0 img {
+    margin: 0 0 4px 0;
+  }
+}
+
 <footer
-  className="footer-container"
+  className="c0"
 >
   <img
     alt="Componay Logo"
